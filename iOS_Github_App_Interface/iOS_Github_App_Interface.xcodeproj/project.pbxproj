@@ -13,6 +13,8 @@
 		DCC334EA2AE3224D00DB91E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC334E82AE3224D00DB91E0 /* Main.storyboard */; };
 		DCC334EC2AE3224F00DB91E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC334EB2AE3224F00DB91E0 /* Assets.xcassets */; };
 		DCC334EF2AE3224F00DB91E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC334ED2AE3224F00DB91E0 /* LaunchScreen.storyboard */; };
+		DCC334F72AE3478900DB91E0 /* ProfileRepoSectionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC334F62AE3478900DB91E0 /* ProfileRepoSectionsTableViewCell.swift */; };
+		DCC334F92AE365CB00DB91E0 /* RepoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC334F82AE365CB00DB91E0 /* RepoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DCC334EB2AE3224F00DB91E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCC334EE2AE3224F00DB91E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCC334F02AE3224F00DB91E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC334F62AE3478900DB91E0 /* ProfileRepoSectionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRepoSectionsTableViewCell.swift; sourceTree = "<group>"; };
+		DCC334F82AE365CB00DB91E0 /* RepoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				DCC334E22AE3224D00DB91E0 /* AppDelegate.swift */,
 				DCC334E42AE3224D00DB91E0 /* SceneDelegate.swift */,
 				DCC334E62AE3224D00DB91E0 /* ViewController.swift */,
+				DCC334F62AE3478900DB91E0 /* ProfileRepoSectionsTableViewCell.swift */,
+				DCC334F82AE365CB00DB91E0 /* RepoCollectionViewCell.swift */,
 				DCC334E82AE3224D00DB91E0 /* Main.storyboard */,
 				DCC334EB2AE3224F00DB91E0 /* Assets.xcassets */,
 				DCC334ED2AE3224F00DB91E0 /* LaunchScreen.storyboard */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCC334E72AE3224D00DB91E0 /* ViewController.swift in Sources */,
+				DCC334F92AE365CB00DB91E0 /* RepoCollectionViewCell.swift in Sources */,
 				DCC334E32AE3224D00DB91E0 /* AppDelegate.swift in Sources */,
 				DCC334E52AE3224D00DB91E0 /* SceneDelegate.swift in Sources */,
+				DCC334F72AE3478900DB91E0 /* ProfileRepoSectionsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
