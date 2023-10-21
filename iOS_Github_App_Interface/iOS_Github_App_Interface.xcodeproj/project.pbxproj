@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC1C82012AE471D6007CAFAA /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C82002AE471D6007CAFAA /* HomePageViewController.swift */; };
+		DC1C82032AE47210007CAFAA /* MyWorkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C82022AE47210007CAFAA /* MyWorkTableViewCell.swift */; };
 		DCC334E32AE3224D00DB91E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC334E22AE3224D00DB91E0 /* AppDelegate.swift */; };
 		DCC334E52AE3224D00DB91E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC334E42AE3224D00DB91E0 /* SceneDelegate.swift */; };
 		DCC334E72AE3224D00DB91E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC334E62AE3224D00DB91E0 /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC1C82002AE471D6007CAFAA /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		DC1C82022AE47210007CAFAA /* MyWorkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkTableViewCell.swift; sourceTree = "<group>"; };
 		DCC334DF2AE3224D00DB91E0 /* iOS_Github_App_Interface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Github_App_Interface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC334E22AE3224D00DB91E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCC334E42AE3224D00DB91E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +45,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC1C81FD2AE471AE007CAFAA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				DCC334F62AE3478900DB91E0 /* ProfileRepoSectionsTableViewCell.swift */,
+				DCC334F82AE365CB00DB91E0 /* RepoCollectionViewCell.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		DC1C81FF2AE471C1007CAFAA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DC1C82002AE471D6007CAFAA /* HomePageViewController.swift */,
+				DC1C82022AE47210007CAFAA /* MyWorkTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		DCC334D62AE3224D00DB91E0 = {
 			isa = PBXGroup;
 			children = (
@@ -63,8 +85,8 @@
 				DCC334E22AE3224D00DB91E0 /* AppDelegate.swift */,
 				DCC334E42AE3224D00DB91E0 /* SceneDelegate.swift */,
 				DCC334E62AE3224D00DB91E0 /* ViewController.swift */,
-				DCC334F62AE3478900DB91E0 /* ProfileRepoSectionsTableViewCell.swift */,
-				DCC334F82AE365CB00DB91E0 /* RepoCollectionViewCell.swift */,
+				DC1C81FF2AE471C1007CAFAA /* Home */,
+				DC1C81FD2AE471AE007CAFAA /* Profile */,
 				DCC334E82AE3224D00DB91E0 /* Main.storyboard */,
 				DCC334EB2AE3224F00DB91E0 /* Assets.xcassets */,
 				DCC334ED2AE3224F00DB91E0 /* LaunchScreen.storyboard */,
@@ -146,8 +168,10 @@
 			files = (
 				DCC334E72AE3224D00DB91E0 /* ViewController.swift in Sources */,
 				DCC334F92AE365CB00DB91E0 /* RepoCollectionViewCell.swift in Sources */,
+				DC1C82012AE471D6007CAFAA /* HomePageViewController.swift in Sources */,
 				DCC334E32AE3224D00DB91E0 /* AppDelegate.swift in Sources */,
 				DCC334E52AE3224D00DB91E0 /* SceneDelegate.swift in Sources */,
+				DC1C82032AE47210007CAFAA /* MyWorkTableViewCell.swift in Sources */,
 				DCC334F72AE3478900DB91E0 /* ProfileRepoSectionsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
