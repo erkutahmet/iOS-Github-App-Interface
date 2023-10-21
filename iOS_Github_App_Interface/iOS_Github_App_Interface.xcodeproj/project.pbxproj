@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		DC1C82012AE471D6007CAFAA /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C82002AE471D6007CAFAA /* HomePageViewController.swift */; };
 		DC1C82032AE47210007CAFAA /* MyWorkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C82022AE47210007CAFAA /* MyWorkTableViewCell.swift */; };
+		DC1C82082AE48B66007CAFAA /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C82072AE48B66007CAFAA /* NotificationsViewController.swift */; };
+		DC1C820D2AE49115007CAFAA /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C820C2AE49115007CAFAA /* ExploreViewController.swift */; };
+		DC1C820F2AE4919B007CAFAA /* DiscoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C820E2AE4919B007CAFAA /* DiscoverTableViewCell.swift */; };
 		DCC334E32AE3224D00DB91E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC334E22AE3224D00DB91E0 /* AppDelegate.swift */; };
 		DCC334E52AE3224D00DB91E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC334E42AE3224D00DB91E0 /* SceneDelegate.swift */; };
 		DCC334E72AE3224D00DB91E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC334E62AE3224D00DB91E0 /* ViewController.swift */; };
@@ -22,6 +25,9 @@
 /* Begin PBXFileReference section */
 		DC1C82002AE471D6007CAFAA /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		DC1C82022AE47210007CAFAA /* MyWorkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkTableViewCell.swift; sourceTree = "<group>"; };
+		DC1C82072AE48B66007CAFAA /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		DC1C820C2AE49115007CAFAA /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		DC1C820E2AE4919B007CAFAA /* DiscoverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewCell.swift; sourceTree = "<group>"; };
 		DCC334DF2AE3224D00DB91E0 /* iOS_Github_App_Interface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Github_App_Interface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC334E22AE3224D00DB91E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCC334E42AE3224D00DB91E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +69,23 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		DC1C82062AE48B41007CAFAA /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				DC1C82072AE48B66007CAFAA /* NotificationsViewController.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		DC1C820B2AE49100007CAFAA /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				DC1C820C2AE49115007CAFAA /* ExploreViewController.swift */,
+				DC1C820E2AE4919B007CAFAA /* DiscoverTableViewCell.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
 		DCC334D62AE3224D00DB91E0 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +109,8 @@
 				DCC334E42AE3224D00DB91E0 /* SceneDelegate.swift */,
 				DCC334E62AE3224D00DB91E0 /* ViewController.swift */,
 				DC1C81FF2AE471C1007CAFAA /* Home */,
+				DC1C82062AE48B41007CAFAA /* Notifications */,
+				DC1C820B2AE49100007CAFAA /* Explore */,
 				DC1C81FD2AE471AE007CAFAA /* Profile */,
 				DCC334E82AE3224D00DB91E0 /* Main.storyboard */,
 				DCC334EB2AE3224F00DB91E0 /* Assets.xcassets */,
@@ -171,8 +196,11 @@
 				DC1C82012AE471D6007CAFAA /* HomePageViewController.swift in Sources */,
 				DCC334E32AE3224D00DB91E0 /* AppDelegate.swift in Sources */,
 				DCC334E52AE3224D00DB91E0 /* SceneDelegate.swift in Sources */,
+				DC1C820D2AE49115007CAFAA /* ExploreViewController.swift in Sources */,
+				DC1C820F2AE4919B007CAFAA /* DiscoverTableViewCell.swift in Sources */,
 				DC1C82032AE47210007CAFAA /* MyWorkTableViewCell.swift in Sources */,
 				DCC334F72AE3478900DB91E0 /* ProfileRepoSectionsTableViewCell.swift in Sources */,
+				DC1C82082AE48B66007CAFAA /* NotificationsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
